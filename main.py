@@ -39,6 +39,7 @@ class ListaCircularDobleEnlazada():
                 print("Digito siguiente",aux.siguiente.numero)
 
             if (aux.siguiente==self.primero):
+                print("No se encontro el numero que desea...")
                 return
             aux = aux.siguiente
 
